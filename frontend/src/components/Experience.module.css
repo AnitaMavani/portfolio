@@ -1,0 +1,35 @@
+.section { border-top: 1px solid var(--border); padding: 6rem 3rem; }
+
+.heading {
+  font-family: var(--serif); font-size: clamp(2rem,3.5vw,3rem);
+  font-weight: 300; letter-spacing: -.01em; line-height: 1.1; margin-bottom: 4rem;
+}
+.heading em { font-style: italic; color: var(--accent); }
+
+.row {
+  display: grid; grid-template-columns: 200px 1fr auto;
+  gap: 3rem; padding: 2rem 0;
+  border-bottom: 1px solid var(--border); align-items: start;
+}
+.row:first-of-type { border-top: 1px solid var(--border); }
+
+.date { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding-top: .3rem; line-height: 1.6; }
+.role { font-family: var(--serif); font-size: 1.3rem; font-weight: 300; color: var(--ink); margin-bottom: .25rem; }
+.company { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: .75rem; }
+.desc { font-family: var(--serif); font-size: .95rem; font-weight: 300; color: var(--muted); line-height: 1.7; max-width: 520px; }
+
+.pill {
+  font-size: .65rem; letter-spacing: .1em; text-transform: uppercase;
+  padding: .25rem .75rem; border: 1px solid var(--border);
+  border-radius: 100px; color: var(--muted); white-space: nowrap;
+}
+.hot {
+  background: rgba(193,125,60,.08);
+  border-color: rgba(193,125,60,.3);
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .section { padding: 4rem 1.5rem; }
+  .row { grid-template-columns: 1fr; gap: .75rem; }
+}

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: anita-portfolio-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: RESEND_API_KEY
+        sync: false        # you fill this in Render dashboard
+      - key: TO_EMAIL
+        sync: false
+      - key: FROM_EMAIL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
