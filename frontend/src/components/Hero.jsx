@@ -7,12 +7,10 @@ export default function Hero() {
         <div className={styles.tag}>Software Engineer · Vancouver, BC · Open to Work</div>
         <h1 className={styles.name}>
           <span>Anita</span>
-          <br />
-          <span className={styles.italic}>Mavani.</span>
         </h1>
         <p className={styles.desc}>
           Full stack engineer with 5+ years building production React &amp; Node.js
-          applications — from enterprise legal tech platforms to commercial products
+          applications from enterprise legal tech platforms to commercial products
           with thousands of users.
         </p>
       </div>

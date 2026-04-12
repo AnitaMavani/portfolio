@@ -4,7 +4,7 @@ const projects = [
   {
     num: '01',
     title: 'Hyper',
-    desc: 'Production-grade React + TypeScript + Next.js admin dashboard. Built advanced data tables with filtering, sorting & search, a real-time toast system, and a lightweight file storage module. WCAG 2.1 compliant, fully modular — 5,000+ sales on ThemeForest.',
+    desc: 'Production-grade React + TypeScript + Next.js admin dashboard. Advanced data tables with filtering, sorting & search, a real-time toast system, and a lightweight file storage module. WCAG 2.1 compliant, fully modular.',
     tags: ['React', 'TypeScript', 'Next.js', 'WCAG 2.1'],
     badge: '5K+ sales',
     href: 'https://wrapmarket.com/item/hyper-admin-dashboard-template-WB0P39K70',
@@ -12,35 +12,27 @@ const projects = [
   {
     num: '02',
     title: 'FormSubmit.io',
-    desc: 'A backend-free form-to-email SaaS — developers point any HTML form at FormSubmit and submissions route to their inbox with zero server code. Includes spam protection, private email tokens, and a free contact manager.',
+    desc: 'A backend-free form-to-email SaaS developers point any HTML form at FormSubmit and submissions route to their inbox with zero server code. Includes spam protection, private email tokens, and a free contact manager.',
     tags: ['SaaS product', 'JavaScript', 'REST API', 'Email infra'],
     badge: null,
     href: 'https://formsubmit.io/',
   },
   {
     num: '03',
-    title: 'Appezia',
-    desc: 'A Bootstrap 5 admin dashboard template with dark/light/RTL modes, 5,000+ icons, and 5 chart libraries. Clean, modular, sold with lifetime updates — designed and engineered end-to-end for the Envato marketplace.',
+    title: 'Appzia',
+    desc: 'A Bootstrap 5 admin dashboard template with dark/light/RTL modes, 5,000+ icons, and 5 chart libraries. Clean, modular.',
     tags: ['Bootstrap 5', 'HTML5 & CSS3', 'SASS', 'jQuery'],
     badge: 'ThemeForest',
     href: 'https://themesdesign.in/appzia/index.html',
   },
-  {
-    num: '04',
-    title: 'Casepoint ARA',
-    desc: 'Next-gen eDiscovery platform for law firms and government agencies. Built key UI modules — data processing, legal hold management, and cloud integration — in an Agile team. Delivered one month ahead of schedule. 508 accessibility enhancements included.',
-    tags: ['Kendo UI', 'JavaScript', 'HTML & CSS', '508 Compliance'],
-    badge: 'Enterprise · Internal',
-    href: null,
-  },
-  {
-    num: '05',
-    title: 'Managely + A/B Tool',
-    desc: 'Two concurrent builds at Morpich: a multi-role company management SaaS (leaves, timesheets, tasks) and an A/B testing tool I owned from design to GCP deployment. Led the first major production release and designed the middleware architecture for scale.',
-    tags: ['React', 'Node.js', 'Express.js', 'Docker', 'GCP'],
-    badge: 'Current role',
-    href: null,
-  },
+  // {
+  //   num: '04',
+  //   title: 'Managely + A/B Tool',
+  //   desc: 'Two concurrent builds at Morpich: a multi-role company management SaaS (leaves, timesheets, tasks) and an A/B testing tool I owned from design to GCP deployment. Led the first major production release and designed the middleware architecture for scale.',
+  //   tags: ['React', 'Node.js', 'Express.js', 'Docker', 'GCP'],
+  //   badge: 'Current role',
+  //   href: null,
+  // },
 ]
 
 export default function Projects() {

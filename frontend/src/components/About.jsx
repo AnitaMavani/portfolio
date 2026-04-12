@@ -16,7 +16,7 @@ export default function About() {
           <div className={styles.label}>About</div>
         </div>
         <blockquote className={styles.quote}>
-          "I care as much about how it feels as how it works — design and engineering
+          "I care as much about how it feels as how it works, design and engineering
           are the same discipline to me."
         </blockquote>
       </div>
@@ -28,7 +28,7 @@ export default function About() {
         <div className={`${styles.body} reveal`} style={{ transitionDelay: '.1s' }}>
           <p>
             I'm a software engineer who has spent the last 5+ years working across the
-            full stack — building enterprise eDiscovery UIs at Casepoint, shipping a
+            full stack building enterprise eDiscovery UIs at Casepoint, shipping a
             commercial React dashboard that hit 5,000+ sales, and currently leading
             product builds at Morpich Design from architecture through GCP deployment.
           </p>
